@@ -1,7 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
+// 👇 ADD THIS BASE OPTION!
 export default defineConfig({
+  base: "/Workflowz/",
   plugins: [react()],
 })
